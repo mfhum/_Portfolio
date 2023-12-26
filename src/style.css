@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.EE-element {
+  height: 20px;
+  width: 20px;
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  z-index: 100;
+  cursor: inherit;
+}
+
+@font-face {
+  font-family: SuisseIntlMono;
+  src: url("./fonts/SuisseIntlMono-Regular-WebTrial.ttf");
+}
+@font-face {
+  font-family: SuisseIntlMono;
+  src: url("./fonts/SuisseIntlMono-Regular-WebTrial.ttf");
+}
+@font-face {
+  font-family: Swiss-Thin;
+  src: url("../../../fonts/SuisseIntlMono-Thin-WebTrial.ttf");
+}
+* {
+  font-family: "Swiss-Regular";
+}
+
+body {
+  background-color: #E1DFDD;
+  user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+h1 {
+  font-size: 140px;
+  line-height: 150p;
+  font-family: "Swiss-Thin";
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 65px;
+  font-family: "Swiss-Regular";
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 35px;
+  font-family: "Swiss-Regular";
+}
+
+p,
+button,
+a {
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  font-family: "Swiss-Regular";
+}
+
+a:focus-visible {
+  outline: 4px solid #0E5C8C;
+  border-radius: 1px;
+  outline-offset: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
