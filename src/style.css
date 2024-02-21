@@ -140,18 +140,22 @@ table {
 
 @font-face {
   font-family: SuisseIntlMono;
-  src: url("./fonts/SuisseIntlMono-Regular-WebTrial.ttf");
+  src: url("./fonts/SuisseIntlMono-Bold-WebTrial.ttf") format(truetype);
+  font-weight: bold;
 }
 @font-face {
   font-family: SuisseIntlMono;
-  src: url("./fonts/SuisseIntlMono-Regular-WebTrial.ttf");
+  src: url("./fonts/SuisseIntlMono-Regular-WebTrial.ttf") format(truetype);
+  font-weight: regular;
 }
 @font-face {
-  font-family: Swiss-Thin;
-  src: url("../../../fonts/SuisseIntlMono-Thin-WebTrial.ttf");
+  font-family: SuisseIntlMono;
+  src: url("../../../fonts/SuisseIntlMono-Thin-WebTrial.ttf") format(truetype);
+  font-weight: thin;
 }
 * {
-  font-family: "Swiss-Regular";
+  font-family: "SuisseIntlMono";
+  font-weight: bold;
 }
 
 body {
@@ -165,20 +169,23 @@ img {
 
 h1 {
   font-size: 140px;
-  line-height: 150p;
-  font-family: "Swiss-Thin";
+  line-height: 150px;
+  font-family: "SuisseIntlMono";
+  font-weight: thin;
 }
 
 h2 {
   font-size: 60px;
   line-height: 65px;
-  font-family: "Swiss-Regular";
+  font-family: "SuisseIntlMono";
+  font-weight: regular;
 }
 
 h3 {
   font-size: 30px;
   line-height: 35px;
-  font-family: "Swiss-Regular";
+  font-family: "SuisseIntlMono";
+  font-weight: regular;
 }
 
 p,
@@ -187,13 +194,37 @@ a {
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
-  font-family: "Swiss-Regular";
+  font-family: "SuisseIntlMono";
+  font-weight: regular;
 }
 
 a:focus-visible {
   outline: 4px solid #0E5C8C;
   border-radius: 1px;
   outline-offset: 2px;
+}
+
+.Hero {
+  background-color: black;
+  margin-bottom: 500px;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.Objects {
+  height: 100dvh;
+  width: 100dvw;
+}
+
+#testTrigger {
+  margin-top: 100px;
+  height: 100dvh;
+}
+
+canvas {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
